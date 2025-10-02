@@ -22,7 +22,7 @@ $(BINARYDIR)/main.o: main.c
 $(BINARYDIR): 
 	test ! -d $(BINARYDIR) && mkdir $(BINARYDIR)
 
-run:
+run: $(EXENAME)
 	./$(EXENAME)
 
 clean:	
