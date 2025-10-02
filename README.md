@@ -1,6 +1,7 @@
 # Limitador de Taxa de Requisições (API Rate Limiter)
 
 **Dupla**: Guilherme Souza Barros, Vítor Oliveira Amorim
+
 **Disciplina**: Conceitos de Linguagens de Programação
 
 ## Compilação e Execução
