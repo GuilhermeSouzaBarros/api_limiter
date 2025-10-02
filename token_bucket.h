@@ -5,7 +5,8 @@
 #define STRICT 1
 #define BURSTY 2
 
-void initBucket(int mode, int request_rate_milsec, int request_max);
+void initBucket(int mode, double request_rate, int request_max);
 int checkRequest();
+void freeBucket();
 
 #endif
